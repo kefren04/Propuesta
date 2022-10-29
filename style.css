@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: goldenrod;
+    
+}
+.container2{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: goldenrod;
+    animation: darking 2s 2s forwards;
+}
+@keyframes darking{
+    100%{
+        background-color: black;
+    }
+}
+p{
+    width: min(100% - 2em, 600px);
+    font-size: 2.5em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+span{
+    color: white;
+}
+.cambiocolor{
+    color: white;
+    animation: darkingg 2s 2s forwards;
+}
+@keyframes darkingg{
+    100%{
+        color: black;
+    }
+}
+section{
+    margin-left: 5rem;
+    margin-bottom: -20rem;
+}
+.cambioseccion{
+    margin-left: 5rem;
+    margin-bottom: 2.1rem;
+}
+.botonSi{
+    width: 5rem;
+    height: 2.5rem;
+    font-size: x-large;
+    font-family: cursive;
+    color: goldenrod;
+    padding: 0 1.5rem;
+    margin-right: 3rem
+}
+.botonNo{
+    width: 5rem;
+    height: 2.5rem;
+    font-size: x-large;
+    font-family: cursive;
+    color: goldenrod;
+    padding: 0 1.5rem;
+}
+a{
+    font-family: cursive;
+    color: goldenrod;
+    cursor: none; 
+    text-decoration: none;
+}
+.botonNo:hover, .botonSi:hover{
+    width: 5.5rem;
+    height: 3rem;
+}
